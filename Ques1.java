@@ -4,7 +4,7 @@ public class Ques1{
         Scanner op= new Scanner(System.in);
         System.out.print("Enter a number");
         int num= op.nextInt();
-        if (num==1){
+        if (num==1 || num==0){
             System.out.print("THe number is a perfect square.");
             return;
         }
